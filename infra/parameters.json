@@ -7,6 +7,9 @@
     },
     "alertEmail": {
       "value": "jaimincanada18@gmail.com"
+    },
+    "slackWebhookUrl": {
+      "value": "https://hooks.slack.com/services/REPLACE_WITH_YOUR_SLACK_WEBHOOK"
     }
   }
 }
