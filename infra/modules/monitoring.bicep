@@ -4,9 +4,8 @@ param prefix string
 @description('Admin Notification Email')
 param alertEmail string
 
-@description('Slack Webhook URL')
-@secure()
-param slackWebhookUrl string = ''
+@description('Slack Inbound Channel Email Address')
+param slackChannelEmail string = ''
 
 resource actionGroup 'Microsoft.Insights/actionGroups@2023-01-01' = {
   name: 'ag-${prefix}-alerts'
@@ -20,11 +19,9 @@ resource actionGroup 'Microsoft.Insights/actionGroups@2023-01-01' = {
         emailAddress: alertEmail
         useCommonAlertSchema: true
       }
-    ]
-    webhookReceivers: empty(slackWebhookUrl) ? [] : [
       {
-        name: 'slack-alerts'
-        serviceUri: slackWebhookUrl
+        name: 'SlackChannel'
+        emailAddress: slackChannelEmail
         useCommonAlertSchema: true
       }
     ]
@@ -58,6 +55,6 @@ resource activityAlert 'Microsoft.Insights/activityLogAlerts@2020-10-01' = {
       ]
     }
     enabled: true
-    description: 'Triggers Email and Slack alerts when primary AKS cluster changes state or is modified'
+    description: 'Triggers multi-channel alerts (Email & Slack) when primary AKS cluster changes state'
   }
 }

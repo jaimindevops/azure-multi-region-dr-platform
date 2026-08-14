@@ -8,8 +8,8 @@
     "alertEmail": {
       "value": "jaimincanada18@gmail.com"
     },
-    "slackWebhookUrl": {
-      "value": "https://hooks.slack.com/services/REPLACE_WITH_YOUR_SLACK_WEBHOOK"
+    "slackChannelEmail": {
+      "value": "all-cloud-defense-aaaavqj5ugz2kykrwt4qmw4snm@cloud-defense.slack.com"
     }
   }
 }
