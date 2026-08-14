@@ -1,0 +1,8 @@
+.azure/
+*.publishsettings
+kubeconfig
+*.log
+.DS_Store
+.AppleDouble
+.vscode/
+.idea/

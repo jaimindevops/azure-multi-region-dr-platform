@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ollama-llm
+  namespace: default
+  labels:
+    app: ollama-llm
+    region: eastus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ollama-llm
+  template:
+    metadata:
+      labels:
+        app: ollama-llm
+    spec:
+      containers:
+      - name: ollama
+        image: ollama/ollama:latest
+        ports:
+        - containerPort: 11434
+        resources:
+          requests:
+            cpu: "500m"
+            memory: "1Gi"
+          limits:
+            cpu: "1500m"
+            memory: "3Gi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ollama-llm
+  namespace: default
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 11434
+    protocol: TCP
+  selector:
+    app: ollama-llm
