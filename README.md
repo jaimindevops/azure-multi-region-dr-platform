@@ -75,22 +75,8 @@ An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recove
 
 ```
 
-azure-multi-region-dr-platform/
-├── .github/
-│   └── workflows/
-│       └── bicep-lint.yml           # CI workflow for IaC linting and ARM validation
-├── infra/
-│   ├── main.bicep                   # Subscription & Resource Group orchestrator
-│   ├── parameters.json              # Parameter configuration (Sanitized for Git)
-│   └── modules/
-│       ├── aks-cluster.bicep        # AKS & Node Pool definition
-│       ├── networking.bicep         # VNets, Subnets, and NSGs
-│       └── monitoring.bicep         # Action Groups, Activity Log Alerts, Slack webhook
-├── k8s/
-│   ├── 01-namespace.yaml            # Isolated production workloads
-│   ├── 02-app-deployment.yaml       # Container deployment specification
-│   └── 03-ingress-service.yaml      # Public routing & Health probe endpoint
-└── README.md                        # Architecture documentation & operations guide
+<img width="822" height="357" alt="image" src="https://github.com/user-attachments/assets/8717d26a-7611-438d-8a81-1958f56d53dc" />
+
 
 ```
 
