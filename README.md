@@ -8,11 +8,7 @@ An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recove
 ## 🏛️ High-Level System Architecture
 
 
-```
-<img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/5ef12fd6-064e-4adc-b9c1-2965baf1e74b" />
 
-
-```
                               [ Global User Traffic ]
                                          │
                                          ▼
