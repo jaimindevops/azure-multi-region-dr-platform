@@ -1,12 +1,6 @@
 ```markdown
 # 🌐 Multi-Region Resilient Kubernetes DR & LLMOps Infrastructure on Azure
 
-[![Azure](https://img.shields.io/badge/Azure-AZ--104%20Certified%20Architecture-0078D4?logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-AKS%20Multi--Region-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
-[![IaC](https://img.shields.io/badge/IaC-Bicep%20Modular-0089D6?logo=azuredevops&logoColor=white)](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)
-[![FinOps](https://img.shields.io/badge/FinOps-Zero--Idle%20Cost%20Governed-green?logo=azure&logoColor=white)](https://www.finops.org/)
-[![Observability](https://img.shields.io/badge/Observability-Azure%20Monitor%20%7C%20Slack-4A154B?logo=slack&logoColor=white)](https://slack.com/)
-
 An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recovery (DR) and LLMOps deployment on Microsoft Azure. Built with modular **Bicep Infrastructure as Code (IaC)**, **Azure Kubernetes Service (AKS)**, **Geo-Replicated Azure Container Registry (ACR Premium)**, **Azure Traffic Manager**, and a real-time **Multi-Channel Alerting Engine (Email + Slack)**.
 
 ---
@@ -365,23 +359,7 @@ In cloud incident response and site reliability engineering (SRE), traditional m
 
 
 ```
-
-azure-multi-region-dr-platform/
-├── .github/
-│   └── workflows/
-│       └── bicep-lint.yml           # CI workflow for IaC linting and ARM validation
-├── infra/
-│   ├── main.bicep                   # Subscription & Resource Group orchestrator
-│   ├── parameters.json              # Parameter configuration (Sanitized for Git)
-│   └── modules/
-│       ├── aks-cluster.bicep        # AKS & Node Pool definition
-│       ├── networking.bicep         # VNets, Subnets, and NSGs
-│       └── monitoring.bicep         # Action Groups, Activity Log Alerts, Slack webhook
-├── k8s/
-│   ├── 01-namespace.yaml            # Isolated production workloads
-│   ├── 02-app-deployment.yaml       # Container deployment specification
-│   └── 03-ingress-service.yaml      # Public routing & Health probe endpoint
-└── README.md                        # Architecture documentation & operations guide
+<img width="709" height="339" alt="image" src="https://github.com/user-attachments/assets/9f35a1a1-42b1-4cd2-a6c3-d1cad9717765" />
 
 ```
 
@@ -473,15 +451,11 @@ az group delete --name rg-dr-secondary-westus --yes --no-wait
 ```
 ---
 
-## 🎓 AZ-104 Exam & Industry Competencies Demonstrated
-
-| Exam Domain | Real-World Implementation in this Project |
-| --- | --- |
-| **Manage Identities & Governance** | Entra ID RBAC assignments, secure parameter injection (`@secure()`). |
-| **Implement & Manage Storage** | Geo-replicated Azure Container Registry (ACR Premium) with multi-region synchronization. |
-| **Deploy & Manage Compute** | Managed Kubernetes (AKS), Node Pool lifecycle management, cluster start/stop APIs. |
-| **Configure & Manage Virtual Networks** | Custom Multi-Region VNet peering, subnet segregation, Azure Traffic Manager DNS routing. |
-| **Monitor & Maintain Azure Resources** | Azure Monitor Action Groups, Activity Log Alert Rules, ChatOps Slack integration. |
+[![Azure](https://img.shields.io/badge/Azure-AZ--104%20Certified%20Architecture-0078D4?logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-AKS%20Multi--Region-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![IaC](https://img.shields.io/badge/IaC-Bicep%20Modular-0089D6?logo=azuredevops&logoColor=white)](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)
+[![FinOps](https://img.shields.io/badge/FinOps-Zero--Idle%20Cost%20Governed-green?logo=azure&logoColor=white)](https://www.finops.org/)
+[![Observability](https://img.shields.io/badge/Observability-Azure%20Monitor%20%7C%20Slack-4A154B?logo=slack&logoColor=white)](https://slack.com/)
 
 ---
 ## 👤 Author
