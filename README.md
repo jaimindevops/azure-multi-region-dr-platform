@@ -42,11 +42,11 @@ In cloud incident response and site reliability engineering (SRE), traditional m
 
 ## 🏛️ High-Level System Architecture
 
-```
-[<img width="1243" height="622" alt="image" src="https://github.com/user-attachments/assets/89f3bb99-7c55-45de-ac60-79728182f926" />
-](https://github.com/jaimindevops/azure-multi-region-dr-platform/blob/main/High_Level_Architecture/Architecture.png?raw=true)<img width="1502" height="756" alt="image" src="https://github.com/user-attachments/assets/1acfbc32-1b3f-466d-ab20-9cbb8ad677b4" />
 
 ```
+https://github.com/jaimindevops/azure-multi-region-dr-platform/blob/main/High_Level_Architecture/Architecture.png?raw=true
+```
+ 
                               [ Global User Traffic ]
                                          │
                                          ▼
