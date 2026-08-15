@@ -1,4 +1,5 @@
----
+
+
 
 An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recovery (DR) and LLMOps deployment on Microsoft Azure. Built with modular **Bicep Infrastructure as Code (IaC)**, **Azure Kubernetes Service (AKS)**, **Geo-Replicated Azure Container Registry (ACR Premium)**, **Azure Traffic Manager**, and a real-time **Multi-Channel Alerting Engine (Email + Slack)**.
 
@@ -9,6 +10,7 @@ An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recove
 
 
 ```
+<img width="943" height="505" alt="image" src="https://github.com/user-attachments/assets/70a88bf3-8ef9-45c1-aa8e-05fef5146b3b" />
 
 ```
                               [ Global User Traffic ]
