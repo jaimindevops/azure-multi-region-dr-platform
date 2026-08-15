@@ -44,7 +44,8 @@ In cloud incident response and site reliability engineering (SRE), traditional m
 
 
 ```
-https://github.com/jaimindevops/azure-multi-region-dr-platform/blob/main/High_Level_Architecture/Architecture.png?raw=true
+<img width="1243" height="622" alt="image" src="https://github.com/user-attachments/assets/8c77ff9d-2d27-4548-bef8-923584802a81" />
+
 ```
  
                               [ Global User Traffic ]
