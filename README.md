@@ -78,12 +78,6 @@ In cloud incident response and site reliability engineering (SRE), traditional m
 
 ---
 
-## 📂 Repository Structure
-
-<img width="822" height="357" alt="image" src="https://github.com/user-attachments/assets/8717d26a-7611-438d-8a81-1958f56d53dc" />
-
----
-
 ## 🛠️ Infrastructure as Code (IaC) Deployment
 
 ### Prerequisites
