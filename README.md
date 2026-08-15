@@ -7,7 +7,8 @@ An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recove
 
 ## 🏛️ High-Level System Architecture
 
-https://github.com/jaimindevops/azure-multi-region-dr-platform/blob/main/High_Level_Architecture/High_level_architecture.png?raw=true<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/ac30f06b-db23-4422-b61b-d60b530fe635" />
+<img width="748" height="376" alt="image" src="https://github.com/user-attachments/assets/0c055c35-fafc-4d04-9cab-f62e1d963365" />
+
 
                               [ Global User Traffic ]
                                          │
