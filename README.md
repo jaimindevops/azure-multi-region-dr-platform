@@ -35,7 +35,7 @@ In cloud incident response and site reliability engineering (SRE), traditional m
 
 ## 🏛️ High-Level System Architecture
 
-<img width="748" height="376" alt="image" src="https://github.com/user-attachments/assets/0c055c35-fafc-4d04-9cab-f62e1d963365" />
+<img width="751" height="378" alt="image" src="https://github.com/user-attachments/assets/ee1e89b4-134e-4733-aea4-be0d80f8a488" />
 
 ```
 
