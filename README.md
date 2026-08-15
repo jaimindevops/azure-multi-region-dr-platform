@@ -8,9 +8,9 @@ An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recove
 ## 🏛️ High-Level System Architecture
 
 
-
 ```
-https://lh3.googleusercontent.com/gg/ACRwjatrvWGmlVqKVgWttEpPaXffdyHIrrAM8BN01lX2wNCESlA25STD2py20_nNrpVxI_ESiT9x9fkEQYsO21RanW5ppWNMdMm4pySijn3vrDp3VU93bbuSrlQVRqAxYaGV8MfRV_N-B26Tad8cHM_cKwLgq53viMtE-MehjVgIf-ASwVrclPkcsndRk0ijPHhNZc36wkz59k4iZ8eCXDIn2W2ufaWKcb3CrV6uLlKrIWEq3JAQ-dJ0-QtR8ZS0pEXsyas0H_sm2fOVHIvjZ1IDy_tWEn8gbOjJc-GGycjJJ4j_QI31Lzdj3n5m8nwej21TV8zjH-X90Cw606-JhOpf6h3V=s1600
+<img width="946" height="503" alt="image" src="https://github.com/user-attachments/assets/9acf5e4c-b946-4c73-8f00-40ac210035f2" />
+
 ```
                               [ Global User Traffic ]
                                          │
