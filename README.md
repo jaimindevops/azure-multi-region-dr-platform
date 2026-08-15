@@ -10,7 +10,7 @@ An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recove
 
 
 ```
-<img width="943" height="505" alt="image" src="https://github.com/user-attachments/assets/70a88bf3-8ef9-45c1-aa8e-05fef5146b3b" />
+<img width="944" height="504" alt="image" src="https://github.com/user-attachments/assets/e242dd54-742e-44bd-9846-1e0eadc8e588" />
 
 ```
                               [ Global User Traffic ]
