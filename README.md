@@ -1,7 +1,8 @@
 ```markdown
 # 🌐 Multi-Region Resilient Kubernetes DR & LLMOps Infrastructure on Azure
 
-An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recovery (DR) and LLMOps deployment on Microsoft Azure. Built with modular **Bicep Infrastructure as Code (IaC)**, **Azure Kubernetes Service (AKS)**, **Geo-Replicated Azure Container Registry (ACR Premium)**, **Azure Traffic Manager**, and a real-time **Multi-Channel Alerting Engine (Email + Slack)**.
+An enterprise-grade, budget-governed Multi-Region Active/Passive Disaster Recovery (DR) and LLMOps deployment on Microsoft Azure. Built with modular
+Bicep Infrastructure as Code (IaC), Azure Kubernetes Service (AKS), Geo-Replicated Azure Container Registry (ACR), Azure Traffic Manager, and a real-time, Multi-Channel Alerting Engine (Email + Slack).
 
 ---
 
