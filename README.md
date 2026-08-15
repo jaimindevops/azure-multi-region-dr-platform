@@ -197,4 +197,4 @@ az group delete --name rg-dr-secondary-westus --yes --no-wait
 
 ## 👤 Author
 
-* **GitHub:** [[@jaimindevops](https://www.google.com/search?q=https://github.com/jaimindevops)](https://github.com/jaimindevops)
+* **GitHub:** https://github.com/jaimindevops)](https://github.com/jaimindevops)
